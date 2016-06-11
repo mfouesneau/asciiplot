@@ -651,7 +651,7 @@ class AFigure(object):
             self.canvas.xlim(xlim)
 
         if ylim is not None:
-            self.canvas.ylim(xlim)
+            self.canvas.ylim(ylim)
 
         return self.draw()
 
